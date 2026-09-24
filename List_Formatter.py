@@ -1,8 +1,8 @@
 import os
 os.system("cls")
 
-input_file = open("c:\\Users\\jacko\\Python Projects\\Formatting\\Formatter_input.txt","r")
-output_file = open("c:\\Users\\jacko\\Python Projects\\Formatting\\Formatter_output.txt","w")
+input_file = open("Formatter_input.txt","r")
+output_file = open("Formatter_output.txt","w")
 
 def if_it_has_newlines():
     output_file.write("['")
@@ -37,7 +37,7 @@ def if_it_is_a_list():
     output_file.close
 
 
-
+#I'm pretty forgetful and this could help
 output_file.write("Remember to click, hold, and go down instead of trying to take your mouse to the end of the line :D\n\n\n")
 
 if_it_has_newlines()
